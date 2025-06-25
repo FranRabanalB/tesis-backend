@@ -13,7 +13,8 @@ fun Application.configureDatabases() {
     val jdbcUrl = cfg.propertyOrNull("postgres.url")?.getString()
 
     Database.connect(
-        "jdbc:postgresql://pgsqltrans.face.ubiobio.cl:5432/frabanal_bd",
+        url = "jdbc:postgresql://pgsqltrans.face.ubiobio.cl:5432/frabanal_bd",
+        driver = "org.postgresql.Driver",
         user = "frabanal",
         password = "francisca2025"
     )

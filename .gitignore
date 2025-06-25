@@ -3,6 +3,16 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+**/application.yaml
+**/local.*
+**/*-all.jar
+**/backend.log
+
+# local.properties
+JDBC_URL=jdbc:postgresql://pgsqltrans.face.ubiobio.cl:5432/frabanal_bd
+DB_USER=frabanal
+DB_PASSWORD=francisca2025
+
 
 ### STS ###
 .apt_generated
