@@ -49,6 +49,7 @@ dependencies {
 
     testImplementation(libs.ktor.server.test.host)
     testImplementation(libs.kotlin.test.junit)
+    testImplementation("com.h2database:h2:2.2.224")
     implementation(libs.postgresql)
 
 
